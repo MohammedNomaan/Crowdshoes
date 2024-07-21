@@ -1,0 +1,206 @@
+
+.navbar-nav {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-left: auto;
+    letter-spacing: 1px;
+}
+@media (max-width:600px) {
+    .navbar-nav {
+        margin: 0;
+    }
+}
+.nav-link1 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.nav-link1:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+.brand {
+    height: 36px;
+    width: 45px;
+}
+
+.scroll {
+    background-color: #000;
+}
+/* /Sneakers/ */
+
+.sales {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* <!-- Sale****** --> */
+
+#sale3 {
+    background-image: url("images/s16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.4rem 0 8rem;
+}
+.offer {
+    font-size: 5rem;
+    font-family: fantasy;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.carSliding {
+    width: 47%;
+    margin: auto;
+}
+.carimg {
+    height: 700px;
+    width: 100%;
+}
+.color {
+    color: #000;
+}
+.innerHeight {
+    height: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Contact* */
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+.support1 {
+    margin-left: 2rem;
+    width: 28%;
+
+}
+.support2 {
+    padding: 1rem 2rem 0.2rem 0;
+    border-bottom: 3px solid #fff;
+}
+.supp {
+    color: #fff;
+    margin: 0;
+}
+.conUs {
+    display: inline-block;
+    margin-right: 6rem;
+}
+
+.context {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+
+}
+
+/* SocialMedia */
+#socialmedia {
+    width: 20%;
+}
+
+.media1 {
+    display: flex;
+    justify-content: space-around;
+}
+.tweet {
+    color: #0dcaf0;
+}
+.face {
+    color: #3B5998;
+}
+
+.insta {
+    color: #eb5395;
+}
+.tweet:hover {
+    color: #0dcaf0;
+
+}
+.face:hover {
+    color: #3B5998;
+}
+
+.insta:hover {
+    color: #eb5395;
+}
+
+/* copy* */
+
+#copy {
+    background-color: #000;
+    padding: 2rem 1rem;
+
+}
+
+.designed {
+    color: #fff;
+}
+
+.names {
+    text-decoration: none;
+    color: #fff;
+}
+
+.names:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.pop {
+    width: 90%;
+    height: 110px;
+    color: #fff;
+    position: fixed;
+    bottom: 1rem;
+    right: 0;
+    padding: 0.5rem;
+    visibility: hidden;
+}
+.popbtn {
+    border-radius: 0;
+    padding: 0.2rem 0.6rem;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.popbtn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.close {
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-close1 {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    opacity: 0.6;
+
+}
